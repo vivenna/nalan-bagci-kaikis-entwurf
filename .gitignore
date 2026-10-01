@@ -25,3 +25,6 @@ tmp/
 # Vollständige Lighthouse-Läufe (je ~1 MB). Ausgewertet in 02-website/technik.md;
 # die beiden Median-Berichte liegen als HTML in 02-website/lighthouse-berichte/.
 02-website/rohdaten/lighthouse/
+
+# Interne Unterlagen, bleiben lokal und gehen nicht auf GitHub
+/intern/
