@@ -1,0 +1,19 @@
+# Abhängigkeiten und Build-Zwischenstände (das fertige Ergebnis liegt bewusst im Repo)
+node_modules/
+.npm/
+.cache/
+.venv/
+__pycache__/
+
+# Temporäre Dateien
+*.tmp
+*.log
+.DS_Store
+tmp/
+
+# Große Rohdaten (z. B. vollständige Lighthouse-JSON-Traces, HAR-Dateien).
+# Die ausgewerteten Kennzahlen stehen in den Berichten; Rohdaten bleiben lokal.
+02-website/rohdaten/*.har
+02-website/rohdaten/**/*-trace.json
+02-website/rohdaten/**/*.trace.json
+02-website/rohdaten/spiegel/
