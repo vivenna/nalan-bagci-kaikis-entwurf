@@ -15,11 +15,11 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Urteil mit Konfidenz dokumentiert (`00-plausibilitaet/plausibilitaet.md`)
 
 ## Phase B – Praxis-Recherche
-- [ ] Fachrichtung, Schwerpunkte, Praxisform, Zielgruppe
-- [ ] Google-Profil, Jameda, Doctolib, Verzeichnisse
-- [ ] NAP-Konsistenz
-- [ ] Wettbewerb (3–5 Praxen)
-- [ ] Bestehendes Terminsystem
+- [x] Fachrichtung, Schwerpunkte, Praxisform, Zielgruppe
+- [x] Google-Profil, Jameda, Doctolib, Verzeichnisse (Google-Profil: manuelle Prüfung offen, siehe NEEDS-HUMAN)
+- [x] NAP-Konsistenz
+- [x] Wettbewerb (3–5 Praxen)
+- [x] Bestehendes Terminsystem
 
 ## Phase C – Website-Analyse
 - [ ] Technik (CMS, Hosting, SSL, Header, Drittdienste)

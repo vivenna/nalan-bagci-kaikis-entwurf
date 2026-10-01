@@ -1,0 +1,17 @@
+Quelle: KBV-Arztsuche https://arztsuche.116117.de/ · Suche „Hausarzt; Allgemeinmedizin“, Ort „14059 Berlin“
+Abruf: 01.10.2026 (Playwright, passiv, Cookie-Banner abgelehnt) · Entfernungen laut KBV ab PLZ-Mittelpunkt
+Auszug der ersten Treffer (berufliche Registerangaben):
+
+110 m  Frau Denka Hadjiyska – Danckelmannstraße 51, 14059 – 030 3214653
+253 m  Herr Benjamin Lott / Frau Susanne Brinckmann – Klausenerplatz 19, 14059 – 030 3215066
+352 m  Herr Johannes Hodes / Herr David Rolke – Klausenerplatz 2, 14059 – info@praxis-am-schloss.de – 030 3216161
+460 m  Frau Nalan Bagci-Kaikis – Schloßstraße 21, 14059 – info@hausarztpraxis-zum-schloss.de – 030 3223612 / 030 3255050   <- Kundin (einziger Eintrag unter dieser Adresse)
+532 m  Frau Dr. Monika Kuppe – Philippistraße 14, 14059 – 030 82719181
+649 m  Kaiserdamm 20, 14057 – 9 Ärztinnen/Ärzte (u. a. Dr. Julia Neuhaus, Dr. Dirk Kampe, Dr. Claus-Michael Richter) – 030 3026252
+670 m  Frau Loabat Khanjani – Schloßstraße 32, 14059 – 030 3412761
+764 m  Herr Dr. Arne Christopher Reckenfelderbäumer – Bismarckstraße 66, 10627 – 030 3418484
+794 m  UBN-Praxis (Ummard-Berger, Dr. Naumann, Dr. Winkler) – Königin-Elisabeth-Straße 7, 14059 – 030 76733370
+797 m  Frau Hannah Merkl – Kaiserdamm 24, 14057 – info@praxiszentrum-kaiserdamm.de – 030 3011390
+(insgesamt > 120 Treffer im 25-km-Umkreis)
+
+Hinweis: Die Arztsuche zeigt akademische Grade an, wo sie im Register stehen (z. B. „Frau Dr. Monika Kuppe“).
