@@ -6,7 +6,7 @@
 
 **Das Bogenfenster aus dem eigenen Schloss-Emblem der Praxis wird zur Bühne:** Beim Laden zeichnet sich das Original-Emblem (Schloss Charlottenburg) Linie für Linie von unten nach oben, dann tritt die Ärztin in das Fenster, und die Info-Karten schweben ein. Logo, Farben und Porträt sind die der Praxis; alles andere ist neu.
 
-Vorschau ohne Browser: [`vorschau/rundgang-desktop.mp4`](vorschau/rundgang-desktop.mp4) (43 s, 1440 × 900, ~5,7 MB, läuft auf Mac/iPhone/Windows).
+Vorschau ohne Browser: [`vorschau/rundgang-desktop.mp4`](vorschau/rundgang-desktop.mp4) (63 s, 1440 × 900, ~8 MB) und [`vorschau/rundgang-mobil.mp4`](vorschau/rundgang-mobil.mp4) (84 s, Smartphone 390 × 844, ~6,5 MB); beide laufen auf Mac/iPhone/Windows.
 
 ## Was von der alten Website erkennbar bleibt
 
@@ -82,7 +82,7 @@ Dann im Browser öffnen: <http://localhost:8000/site/> (beenden mit `Ctrl + C`).
 
 ## Der Ärztin zeigen
 
-1. **Am einfachsten:** das Video `vorschau/rundgang-desktop.mp4` mitschicken (5,7 MB, passt in jede Mail) und dazu einen Link.
+1. **Am einfachsten:** die Videos `vorschau/rundgang-desktop.mp4` (8 MB) und `vorschau/rundgang-mobil.mp4` (6,5 MB) mitschicken (zusammen 15 MB, passen in die meisten Mails) und dazu einen Link.
 2. **Link über GitHub Pages:** Damit kann sie die Seite selbst am Handy ausprobieren (Live-Status, Menü, Animationen). Die Anleitung steht unten.
 3. **Im Termin vor Ort oder per Bildschirmfreigabe:** lokal starten wie oben.
 
@@ -136,10 +136,11 @@ redesign/
 │   ├── baue-index.py             setzt das Emblem ein → site/index.html
 │   └── *.png                     Original-Logo, Emblem, Porträt der bisherigen Website
 ├── vorschau/rundgang-desktop.mp4
+├── vorschau/rundgang-mobil.mp4
 ├── screenshots/
 └── lighthouse-berichte/
 ```
 
-Änderungen am HTML in `quellen/index.vorlage.html` vornehmen, dann `python3 quellen/baue-index.py`. Bilder neu erzeugen: `node ../werkzeuge/bilder-aufbereiten.mjs`; Emblem neu vektorisieren: `node ../werkzeuge/emblem-vektorisieren.mjs` (jeweils aus `werkzeuge/` starten). Prüfungen: `node pruefe-prototyp.mjs http://localhost:8000/site/ ../redesign/screenshots` und `node axe-pruefung.mjs http://localhost:8000/site/`; Video: `node rundgang-video.mjs http://localhost:8000/site/ ../redesign/vorschau/rundgang-desktop.mp4`.
+Änderungen am HTML in `quellen/index.vorlage.html` vornehmen, dann `python3 quellen/baue-index.py`. Bilder neu erzeugen: `node ../werkzeuge/bilder-aufbereiten.mjs`; Emblem neu vektorisieren: `node ../werkzeuge/emblem-vektorisieren.mjs` (jeweils aus `werkzeuge/` starten). Prüfungen: `node pruefe-prototyp.mjs http://localhost:8000/site/ ../redesign/screenshots` und `node axe-pruefung.mjs http://localhost:8000/site/`; Videos: `node rundgang-video.mjs http://localhost:8000/site/ ../redesign/vorschau/rundgang-desktop.mp4 desktop` bzw. `… ../redesign/vorschau/rundgang-mobil.mp4 mobil`.
 
 Entwurf 1 (schlichte Variante ohne Fotos) liegt in der Git-Historie (Commit `2e56b99`).
