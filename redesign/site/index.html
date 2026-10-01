@@ -73,9 +73,10 @@
       <nav class="hauptnav" id="hauptnavigation" aria-label="Hauptnavigation">
         <ul>
           <li><a href="#leistungen">Leistungen</a></li>
-          <li><a href="#aerztin">Ihre Ärztin</a></li>
           <li><a href="#sprechzeiten">Sprechzeiten</a></li>
           <li><a href="#kontakt">Anfahrt</a></li>
+          <li><a href="#aerztin">Ihre Ärztin</a></li>
+          <li class="hauptnav__termin"><a class="knopf knopf--primaer knopf--gross" href="#termin">Termin buchen</a></li>
         </ul>
       </nav>
       <div class="kopf__aktionen">
@@ -221,38 +222,6 @@
       </div>
     </section>
 
-    <!-- ============ ÄRZTIN ============ -->
-    <section class="abschnitt aerztin" id="aerztin" aria-labelledby="aerztin-titel">
-      <img class="aerztin__wasserzeichen" src="assets/img/emblem-linien.svg" alt="" width="700" height="700" loading="lazy">
-      <div class="huelle aerztin__raster">
-        <div class="aerztin__kopf">
-          <p class="eyebrow reveal">Ihre Ärztin</p>
-          <div class="aerztin__name reveal">
-            <picture>
-              <source type="image/avif" srcset="assets/img/portrait-kopf-240.avif 1x, assets/img/portrait-kopf-480.avif 2x">
-              <img class="avatar" src="assets/img/portrait-kopf-240.webp" srcset="assets/img/portrait-kopf-480.webp 2x" width="120" height="120" alt="" loading="lazy">
-            </picture>
-            <h2 id="aerztin-titel">Nalan<br>Bagci-Kaikis</h2>
-          </div>
-          <p class="aerztin__titel reveal">Fachärztin für Allgemeinmedizin<br><span>Akupunktur · Naturheilverfahren</span></p>
-          <p class="aerztin__text reveal">Studium an der Freien Universität, der Humboldt-Universität und der Charité Berlin, Lehre und Forschung am Institut für Allgemeinmedizin der Charité, naturheilkundliche Ausbildung am Immanuel Krankenhaus Berlin – und seit 2019 die eigene hausärztliche Praxis.</p>
-          <ul class="sprachen reveal" aria-label="Sprachen">
-            <li><svg class="icon" aria-hidden="true"><use href="#i-sprache"/></svg> Deutsch</li>
-            <li>English</li>
-            <li>Türkçe</li>
-          </ul>
-        </div>
-
-        <ol class="zeitleiste" role="list" data-zeitleiste>
-          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Studium</span><p>Humanmedizin an der Freien Universität Berlin, der Humboldt-Universität und der Charité Berlin</p></li>
-          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Klinik &amp; Forschung</span><p>Lehrpraxen der Charité, Evangelische Elisabethklinik; wissenschaftliche Mitarbeiterin am Institut für Allgemeinmedizin der Charité in Lehre und Forschung</p></li>
-          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Weiterbildung</span><p>Fachärztin für Allgemeinmedizin; naturheilkundliche Ausbildung am Immanuel Krankenhaus Berlin</p></li>
-          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">ab 2010</span><p>Zusammenarbeit mit Fachärztinnen und Fachärzten für Orthopädie und Chirurgie</p></li>
-          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">seit Oktober 2019</span><p>Eigene hausärztliche Praxis – seit April 2021 in der Schloßstraße 21</p></li>
-        </ol>
-      </div>
-    </section>
-
     <!-- ============ SPRECHZEITEN ============ -->
     <section class="abschnitt zeiten" id="sprechzeiten" aria-labelledby="zeiten-titel">
       <div class="huelle zeiten__raster">
@@ -289,17 +258,17 @@
       <div class="huelle">
         <div class="termin__kopf">
           <p class="eyebrow eyebrow--hell reveal">Termin</p>
-          <h2 class="reveal" id="termin-titel">In drei Schritten <em>zu Ihrem Termin.</em></h2>
+          <h2 class="reveal" id="termin-titel">In drei Schritten <em>online zu Ihrem Termin.</em></h2>
         </div>
         <ol class="schritte" role="list">
-          <li class="schritt reveal" style="--i:0"><span class="schritt__nr">1</span><h3>Anrufen</h3><p>Während der Sprechzeiten unter <a href="tel:+49303223612">030 322 36 12</a>.</p></li>
-          <li class="schritt reveal" style="--i:1"><span class="schritt__nr">2</span><h3>Anliegen kurz schildern</h3><p>Damit wir besser planen können – auch, wenn es akut ist.</p></li>
-          <li class="schritt reveal" style="--i:2"><span class="schritt__nr">3</span><h3>Festen Termin erhalten</h3><p>So bleiben die Wartezeiten so kurz wie möglich.</p></li>
+          <li class="schritt reveal" style="--i:0"><span class="schritt__nr">1</span><h3>Anliegen und Wunschzeit wählen</h3><p>Sagen Sie uns kurz, worum es geht und wann es Ihnen passt – zum Beispiel Sprechstunde, Vorsorge, Impfung oder Akupunktur.</p></li>
+          <li class="schritt reveal" style="--i:1"><span class="schritt__nr">2</span><h3>Kontaktdaten angeben</h3><p>Name und eine Telefonnummer oder E-Mail-Adresse genügen. Diagnosen oder Befunde brauchen wir an dieser Stelle nicht.</p></li>
+          <li class="schritt reveal" style="--i:2"><span class="schritt__nr">3</span><h3>Bestätigung erhalten</h3><p>Wir prüfen Ihre Anfrage und melden uns mit einem festen Termin – so bleiben die Wartezeiten so kurz wie möglich.</p></li>
         </ol>
         <div class="termin__aktion reveal">
-          <a class="knopf knopf--primaer knopf--gross" href="tel:+49303223612" data-magnet><svg class="icon" aria-hidden="true"><use href="#i-telefon"/></svg> 030 322 36 12</a>
-          <p class="termin__online"><svg class="icon" aria-hidden="true"><use href="#i-kalender"/></svg> <span><strong>Online-Terminbuchung</strong> – an dieser Stelle binden wir auf Wunsch Ihren Buchungsanbieter ein.</span><span class="entwurf-chip">Entwurf</span></p>
-          <p class="termin__fussnote">Bitte haben Sie Verständnis, wenn Kinder oder schwer kranke Patientinnen und Patienten gelegentlich vorgezogen werden.</p>
+          <a class="knopf knopf--primaer knopf--gross" href="#termin" data-platzhalter data-magnet>Online Termin anfragen <svg class="icon" aria-hidden="true"><use href="#i-pfeil"/></svg></a>
+          <p class="termin__online"><svg class="icon" aria-hidden="true"><use href="#i-telefon"/></svg> <span>Lieber persönlich? Rufen Sie uns an: <a href="tel:+49303223612">030 322 36 12</a></span></p>
+          <p class="termin__fussnote">Die Online-Anfrage ist kein Notfallweg. Bei akuten Beschwerden rufen Sie bitte an, außerhalb der Sprechzeiten erreichen Sie den ärztlichen Bereitschaftsdienst unter <a href="tel:116117">116 117</a>. Kinder und schwer kranke Patientinnen und Patienten werden gelegentlich vorgezogen.</p>
         </div>
       </div>
     </section>
@@ -312,8 +281,8 @@
           <h2 class="kontakt__strasse reveal" id="kontakt-titel">Schloßstraße&nbsp;21</h2>
           <p class="kontakt__ort reveal">14059 Berlin-Charlottenburg</p>
           <div class="kontakt__knoepfe reveal">
-            <a class="knopf knopf--rahmen" href="https://www.google.com/maps/dir/?api=1&amp;destination=Schlo%C3%9Fstra%C3%9Fe%2021%2C%2014059%20Berlin" target="_blank" rel="noopener">Route planen <svg class="icon" aria-hidden="true"><use href="#i-pfeil"/></svg><span class="sr-only"> (Google Maps, neues Fenster)</span></a>
-            <a class="knopf knopf--text" href="https://www.openstreetmap.org/search?query=Schlo%C3%9Fstra%C3%9Fe%2021%2C%2014059%20Berlin" target="_blank" rel="noopener">Auf der Karte zeigen<span class="sr-only"> (OpenStreetMap, neues Fenster)</span></a>
+            <a class="knopf knopf--rahmen" href="https://www.google.com/maps/dir/?api=1&amp;destination=Praxis+Nalan+Bagci+Kaikis%2C+Schlo%C3%9Fstra%C3%9Fe+21%2C+14059+Berlin" target="_blank" rel="noopener">Route planen <svg class="icon" aria-hidden="true"><use href="#i-pfeil"/></svg><span class="sr-only"> (Google Maps, neues Fenster)</span></a>
+            <a class="knopf knopf--text" href="https://www.google.com/maps/place/Praxis+Nalan+Bagci+Kaikis/@52.5143751,13.2961066,17z/data=!4m6!3m5!1s0x47a85126200f2751:0xee71257a8fe8b162!8m2!3d52.5143189!4d13.296208!16s%2Fg%2F1tq6cjhb" target="_blank" rel="noopener">Auf der Karte zeigen<span class="sr-only"> (Google Maps, neues Fenster)</span></a>
           </div>
         </div>
         <ul class="kontakt__liste" role="list">
@@ -322,6 +291,38 @@
           <li class="reveal" style="--i:2"><svg class="icon" aria-hidden="true"><use href="#i-zugang"/></svg><span class="kontakt__label">Zugang</span><span>ebenerdig oder mit Aufzug erreichbar</span></li>
           <li class="reveal" style="--i:3"><svg class="icon" aria-hidden="true"><use href="#i-schild"/></svg><span class="kontakt__label">Versicherung</span><span>Gesetzlich und privat Versicherte, Selbstzahler</span></li>
         </ul>
+      </div>
+    </section>
+
+    <!-- ============ ÄRZTIN ============ -->
+    <section class="abschnitt aerztin" id="aerztin" aria-labelledby="aerztin-titel">
+      <img class="aerztin__wasserzeichen" src="assets/img/emblem-linien.svg" alt="" width="700" height="700" loading="lazy">
+      <div class="huelle aerztin__raster">
+        <div class="aerztin__kopf">
+          <p class="eyebrow reveal">Ihre Ärztin</p>
+          <div class="aerztin__name reveal">
+            <picture>
+              <source type="image/avif" srcset="assets/img/portrait-kopf-240.avif 1x, assets/img/portrait-kopf-480.avif 2x">
+              <img class="avatar" src="assets/img/portrait-kopf-240.webp" srcset="assets/img/portrait-kopf-480.webp 2x" width="120" height="120" alt="" loading="lazy">
+            </picture>
+            <h2 id="aerztin-titel">Nalan<br>Bagci-Kaikis</h2>
+          </div>
+          <p class="aerztin__titel reveal">Fachärztin für Allgemeinmedizin<br><span>Akupunktur · Naturheilverfahren</span></p>
+          <p class="aerztin__text reveal">Studium an der Freien Universität, der Humboldt-Universität und der Charité Berlin, Lehre und Forschung am Institut für Allgemeinmedizin der Charité, naturheilkundliche Ausbildung am Immanuel Krankenhaus Berlin – und seit 2019 die eigene hausärztliche Praxis.</p>
+          <ul class="sprachen reveal" aria-label="Sprachen">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-sprache"/></svg> Deutsch</li>
+            <li>English</li>
+            <li>Türkçe</li>
+          </ul>
+        </div>
+
+        <ol class="zeitleiste" role="list" data-zeitleiste>
+          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Studium</span><p>Humanmedizin an der Freien Universität Berlin, der Humboldt-Universität und der Charité Berlin</p></li>
+          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Klinik &amp; Forschung</span><p>Lehrpraxen der Charité, Evangelische Elisabethklinik; wissenschaftliche Mitarbeiterin am Institut für Allgemeinmedizin der Charité in Lehre und Forschung</p></li>
+          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">Weiterbildung</span><p>Fachärztin für Allgemeinmedizin; naturheilkundliche Ausbildung am Immanuel Krankenhaus Berlin</p></li>
+          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">ab 2010</span><p>Zusammenarbeit mit Fachärztinnen und Fachärzten für Orthopädie und Chirurgie</p></li>
+          <li class="zeitleiste__punkt"><span class="zeitleiste__marke">seit Oktober 2019</span><p>Eigene hausärztliche Praxis – seit April 2021 in der Schloßstraße 21</p></li>
+        </ol>
       </div>
     </section>
   </main>
@@ -335,9 +336,9 @@
       <nav aria-label="Seitenbereiche">
         <ul role="list">
           <li><a href="#leistungen">Leistungen</a></li>
-          <li><a href="#aerztin">Ihre Ärztin</a></li>
           <li><a href="#sprechzeiten">Sprechzeiten</a></li>
           <li><a href="#termin">Termin</a></li>
+          <li><a href="#aerztin">Ihre Ärztin</a></li>
         </ul>
       </nav>
       <nav aria-label="Rechtliches">
