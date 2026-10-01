@@ -17,3 +17,7 @@ tmp/
 02-website/rohdaten/**/*-trace.json
 02-website/rohdaten/**/*.trace.json
 02-website/rohdaten/spiegel/
+
+# Vollständige Roh-HTMLs fremder Verzeichnisse (enthalten u. a. Patientenbewertungen Dritter).
+# Als Beleg genügen die Textauszüge in 00-plausibilitaet/belege/.
+02-website/rohdaten/verzeichnisse/

@@ -7,12 +7,12 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] `.gitignore`, Ordnerstruktur
 - [x] `input/anfrage.md` gespeichert
 
-## Phase A – Plausibilität
-- [ ] Ärztin in KV-/Kammer-/Arztverzeichnissen gefunden
-- [ ] Namensabweichung „Bagci Kaikis“ eingeordnet
-- [ ] Praxis-Website identifiziert
-- [ ] Warnsignale geprüft
-- [ ] Urteil mit Konfidenz dokumentiert (`00-plausibilitaet/plausibilitaet.md`)
+## Phase A – Plausibilität ✅ plausibel, Konfidenz hoch
+- [x] Ärztin in KV-/Kammer-/Arztverzeichnissen gefunden
+- [x] Namensabweichung „Bagci Kaikis“ eingeordnet
+- [x] Praxis-Website identifiziert
+- [x] Warnsignale geprüft
+- [x] Urteil mit Konfidenz dokumentiert (`00-plausibilitaet/plausibilitaet.md`)
 
 ## Phase B – Praxis-Recherche
 - [ ] Fachrichtung, Schwerpunkte, Praxisform, Zielgruppe

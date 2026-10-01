@@ -1,0 +1,10 @@
+{
+  "name": "vivenna-audit-werkzeuge",
+  "private": true,
+  "description": "Lokale Analyse-Werkzeuge (Playwright, Lighthouse) für den Website-Audit; nutzt das installierte Google Chrome.",
+  "type": "module",
+  "devDependencies": {
+    "lighthouse": "^13.5.0",
+    "playwright": "^1.63.0"
+  }
+}
