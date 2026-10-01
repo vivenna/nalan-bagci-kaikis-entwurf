@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#0e5f5b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Zeichen: Schlosskuppel">
+  <!-- Eigene, vereinfachte Linienzeichnung einer Schlosskuppel (Entwurf). Ersetzt im Projekt das Original-Logo als Vektor. -->
+  <circle cx="24" cy="24" r="22.5" stroke-width="1.2" opacity=".55"/>
+  <path d="M8 38.5h32"/>
+  <path d="M10 38.5v-9h28v9"/>
+  <path d="M18.5 38.5v-13h11v13"/>
+  <path d="M18.5 25.5c0-6.2 2.4-9.6 5.5-9.6s5.5 3.4 5.5 9.6"/>
+  <path d="M22.4 15.9v-3.4h3.2v3.4"/>
+  <path d="M24 12.5V8.2"/>
+  <path d="M22.6 9.4 24 8l1.4 1.4"/>
+  <path d="M13 32v3.5M16 32v3.5M32 32v3.5M35 32v3.5"/>
+  <path d="M22 38.5v-3.2a2 2 0 0 1 4 0v3.2"/>
+</svg>

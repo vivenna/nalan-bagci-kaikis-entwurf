@@ -90,7 +90,7 @@ Annahme: ca. 25 Seiten (Startseite, Praxis/Ärztin, Team, Sprechzeiten & Anfahrt
 | Variante | Für wen | Vorteile | Nachteile |
 |---|---|---|---|
 | **A: WordPress neu** (Block-Theme, Core-Editor, max. 3–5 Plugins, kein Page-Builder) | Praxis will Inhalte **selbst und häufig** pflegen | Vertraut, Selbstpflege möglich, gleicher Hosting-Tarif | Laufende Updates Pflicht; ohne Wartungsvertrag droht derselbe Zustand wie heute |
-| **B: Statische Website** (z. B. Astro, wie im Prototyp) | Änderungen **selten**, Pflege durch vivenna | Sehr schnell, kaum Angriffsfläche, kaum Wartung, kein Datenbank-/Plugin-Risiko | Änderungen über vivenna oder ein einfaches Redaktionswerkzeug |
+| **B: Statische Website** (z. B. Astro oder Eleventy; der Prototyp ist bewusst reines HTML/CSS im selben Prinzip) | Änderungen **selten**, Pflege durch vivenna | Sehr schnell, kaum Angriffsfläche, kaum Wartung, kein Datenbank-/Plugin-Risiko | Änderungen über vivenna oder ein einfaches Redaktionswerkzeug |
 
 **Einschätzung:** Die bestehende Installation wurde seit etwa Januar 2025 nicht mehr aktualisiert. Das ist ein deutliches Indiz, dass Selbstwartung im Praxisalltag nicht stattfindet. Deshalb empfehle ich **Variante B mit kleinem Pflegekontingent**. Variante A empfehle ich nur, wenn die Praxis regelmäßig selbst pflegen will **und** einen Wartungsvertrag abschließt. Ausschlaggebend ist die Frage „Wer pflegt künftig Inhalte?“ (`FRAGEN.md`).
 

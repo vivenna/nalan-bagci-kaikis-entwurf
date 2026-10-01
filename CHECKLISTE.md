@@ -37,11 +37,11 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Risiken für Festpreis, Annahmen
 
 ## Phase E – Redesign-Prototyp
-- [ ] Seite gewählt und begründet
-- [ ] Prototyp gebaut (statisch, GitHub-Pages-tauglich, noindex, „Entwurf“)
-- [ ] Viewport-Screenshots
-- [ ] Lighthouse geprüft, Probleme behoben
-- [ ] Feedback von Mohamed eingeholt
+- [x] Seite gewählt und begründet
+- [x] Prototyp gebaut (statisch, GitHub-Pages-tauglich, noindex, „Entwurf“)
+- [x] Viewport-Screenshots
+- [x] Lighthouse geprüft, Probleme behoben (mobil 99, Desktop 100; axe 0 Verstöße)
+- [ ] Feedback von Mohamed eingeholt (Fragen gestellt, siehe NEEDS-HUMAN Punkt 5)
 
 ## Abschluss
 - [ ] `SUMMARY.md`
