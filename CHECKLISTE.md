@@ -36,7 +36,7 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Aufwandsindikation in Stunden-Spannen
 - [x] Risiken für Festpreis, Annahmen
 
-## Phase E – Redesign-Prototyp
+## Phase E – Redesign-Prototyp ✅ (Feedback von Mohamed noch offen)
 - [x] Seite gewählt und begründet
 - [x] Prototyp gebaut (statisch, GitHub-Pages-tauglich, noindex, „Entwurf“)
 - [x] Viewport-Screenshots
@@ -44,10 +44,14 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [ ] Feedback von Mohamed eingeholt (Fragen gestellt, siehe NEEDS-HUMAN Punkt 5)
 
 ## Abschluss
-- [ ] `SUMMARY.md`
-- [ ] `FRAGEN.md`
-- [ ] `entwurf-antwort-mail.md`
-- [ ] `redesign/README.md`
-- [ ] `NEEDS-HUMAN.md` aktuell
-- [ ] Ergebnisse gegen Belege geprüft
-- [ ] Letzter Commit, `git log --oneline`
+- [x] `SUMMARY.md`
+- [x] `FRAGEN.md`
+- [x] `entwurf-antwort-mail.md`
+- [x] `redesign/README.md`
+- [x] `NEEDS-HUMAN.md` aktuell
+- [x] Ergebnisse gegen Belege geprüft
+- [x] Letzter Commit, `git log --oneline`
+
+## Offen (menschliche Rückmeldung)
+- [ ] Mohamed: Fragen in `NEEDS-HUMAN.md` beantworten (v. a. Nr. 5 Design-Feedback)
+- [ ] Antwortmail senden, Telefonat führen, A-Fragen aus `FRAGEN.md` klären

@@ -83,7 +83,7 @@ Auswahl: Hausarztpraxen bis ca. 1 km laut KBV-Umkreissuche (01.10.2026) plus ein
 ## 6. Erkenntnisse für die Empfehlung
 
 1. **Verwechslungsgefahr „Praxis am Schloss“ vs. „Praxis zum Schloss“** (Vermutung, gut begründet): Zwei Hausarztpraxen mit fast gleichem Namen liegen fußläufig nah beieinander, beide in 14059. Bei Suchen nach dem Praxisnamen konkurriert die Kundin direkt mit dem Wettbewerber, und dieser hat die stärkere Website mit Online-Buchung. Gegenmittel: Name der Ärztin, Adresse und Schwerpunkt („Hausärztin · Naturheilkunde · Akupunktur“) konsequent in Title, H1, Google-Profil und strukturierten Daten führen.
-2. **Online-Termin ist im Umfeld Standard** (3 von 5 Wettbewerbern). Die Kundin bietet nur ein Anfrageformular an.
+2. **Online-Termine sind im Umfeld verbreitet:** 2 von 5 Wettbewerbern nutzen nachweislich ein Buchungssystem (T2med, Doctolib), ein dritter hat eigene Terminseiten unklarer Art. Die Kundin bietet nur ein Anfrageformular an.
 3. **Das Naturheilkunde-Profil ist ein echtes Alleinstellungsmerkmal** unter den Hausarztpraxen der unmittelbaren Umgebung. Die Leistungen sind aber online kaum sichtbar, weil die Website nicht rankt und die Verzeichnisprofile nicht gepflegt sind.
 4. **Ungenutzte Gratis-Hebel:** Das Jameda-Profil ist nicht beansprucht (Sprechzeiten falsch, keine Leistungen), die Sprechzeiten sind uneinheitlich, und die Sprachen fehlen auf der Website.
 5. **Die technische Messlatte im Umfeld ist niedrig:** Kein Wettbewerber nutzt `Physician`-Schema, mehrere haben keine Meta-Description. Mit sauberem lokalen SEO ist ein Vorsprung realistisch.

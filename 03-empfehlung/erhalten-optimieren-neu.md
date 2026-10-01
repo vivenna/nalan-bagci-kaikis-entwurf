@@ -31,7 +31,7 @@ Die Kundin wünscht ausdrücklich keinen Neubau, *sofern* sich die Seite sinnvol
 | **Technik** | **ersetzen** | Holamed + Unyson (geschlossen, CVE ohne Fix) + WPBakery 6.10 + veraltetes WordPress, reCAPTCHA, Konsolenfehler, keine Sicherheits-Header | `technik.md` |
 | **SEO** | **neu aufsetzen**, Basis **behalten** | **Behalten:** Domain, Seiten je Leistung, Canonical, HTTPS. **Neu:** Titles/Descriptions, H1, `Physician`-Schema, deutsche URLs mit 301-Weiterleitungen, bereinigte Sitemap, Google-Profil und Verzeichnisse angleichen | `seo-lokal.md` |
 | **Recht / Datenschutz** | **ersetzen** | Impressum ergänzen (Kammer, Berufsbezeichnung, Berufsrecht, KV), OS-Link raus, Datenschutzerklärung neu (realer Hoster, keine Fantasie-Dienste, Formulare/Gesundheitsdaten), reCAPTCHA weg und dadurch **kein Consent-Banner nötig**, HWG-konforme Leistungstexte | `recht-datenschutz.md` |
-| **Terminbuchung** | **neu** | Bisher nur Anfrageformular. Im Umfeld haben 3 von 5 Praxen eine Online-Buchung. Anbieter nach Praxissoftware wählen, Einbindung per Link/Button (lädt nichts vor dem Klick) | `01-praxis/praxis-recherche.md` §4–5 |
+| **Terminbuchung** | **neu** | Bisher nur Anfrageformular. Im Umfeld nutzen 2 von 5 Praxen nachweislich ein Buchungssystem (T2med, Doctolib), eine dritte hat eigene Terminseiten. Anbieter nach Praxissoftware wählen, Einbindung per Link/Button (lädt nichts vor dem Klick) | `01-praxis/praxis-recherche.md` §4–5 |
 
 ## Stufe 0 – Sofortmaßnahmen auf der bestehenden Seite (unabhängig vom Angebot empfohlen)
 
