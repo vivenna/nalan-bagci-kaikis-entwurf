@@ -1,160 +1,145 @@
-# Redesign-Prototyp: Startseite „Praxis zum Schloss“
+# Redesign-Entwurf 2: Startseite „Praxis zum Schloss“
 
-> **Entwurf.** Gestaltungsvorschlag von vivenna für die Hausarztpraxis Nalan Bagci-Kaikis. Er enthält Namen und Inhalte einer realen Praxis, **die noch nicht zugestimmt hat**. Die Seite ist sichtbar als Entwurf markiert und mit `<meta name="robots" content="noindex, nofollow">` von Suchmaschinen ausgeschlossen. **Nicht öffentlich veröffentlichen, bevor die Kundin zugestimmt hat** (siehe Abschnitt GitHub Pages).
+> **Entwurf.** Gestaltungsvorschlag von vivenna für die Hausarztpraxis Nalan Bagci-Kaikis. Er enthält Logo, Porträt und Inhalte einer realen Praxis, **mit der noch kein Vertrag besteht**. Die Seite ist sichtbar als Entwurf markiert (Plakette unten links) und mit `<meta name="robots" content="noindex, nofollow">` von Suchmaschinen ausgeschlossen. Der Entwurf ist zum Zeigen **an die Ärztin selbst** gedacht, nicht zur öffentlichen Verbreitung.
 
-## Was gebaut wurde
+## Die Idee in einem Satz
 
-Eine vollständig neu gestaltete **Startseite** als statische Website in `site/`:
+**Das Bogenfenster aus dem eigenen Schloss-Emblem der Praxis wird zur Bühne:** Beim Laden zeichnet sich das Original-Emblem (Schloss Charlottenburg) Linie für Linie von unten nach oben, dann tritt die Ärztin in das Fenster, und die Info-Karten schweben ein. Logo, Farben und Porträt sind die der Praxis; alles andere ist neu.
 
-- reines HTML + CSS + 65 Zeilen JavaScript (inkl. Kommentaren), ohne Framework und ohne Build-Schritt,
-- Schriften lokal, keine Drittanbieter, keine Cookies, kein Consent-Banner nötig,
-- mobile first, mit fester Leiste „Anrufen / Termin“ auf dem Smartphone,
-- strukturierte Daten (`Physician`, Schema.org), Meta-Description, Open Graph,
-- Barrierefreiheit: Sprunglink, sichtbare Fokusrahmen, semantische Landmarks, Tabellen-Semantik für Sprechzeiten, Textkontraste von mindestens 6,4:1 (WCAG AA verlangt 4,5:1; Fließtext 13,9:1).
+Vorschau ohne Browser: [`vorschau/rundgang-desktop.mp4`](vorschau/rundgang-desktop.mp4) (43 s, 1440 × 900, ~5,7 MB, läuft auf Mac/iPhone/Windows).
 
-**Warum die Startseite und nicht die schwächste Unterseite?** Die Startseite ist zugleich die schwächste und die wichtigste Seite. Sie bündelt die meisten Befunde aus `02-website/`:
+## Was von der alten Website erkennbar bleibt
 
-- keine H1,
-- verstümmelte Überschrift,
-- veralteter Corona-Block,
-- LCP mobil 11,6 s,
-- Telefon und Sprechzeiten mobil erst ganz unten,
-- Kosmetik-Stockfotos.
-
-Sie ist die Seite, über die Patientinnen und Patienten aus Google und den Verzeichnissen ankommen. Ein Vorher-Nachher an dieser Seite zeigt der Kundin am deutlichsten, was der Relaunch bringt. Alternativ wäre „Unsere Praxis“ in Frage gekommen, die hat aber gute Inhalte und braucht vor allem Umsortierung.
-
-**Warum ohne Framework?** Für eine einzelne Seite wäre eine Build-Kette Overhead. Statisches HTML läuft auf GitHub Pages im Unterpfad ohne Konfiguration, und jeder Nachfolger kann es lesen. Für den echten Relaunch mit ~25 Seiten empfiehlt sich ein statischer Generator wie Astro oder Eleventy (gemeinsame Vorlagen, Bildoptimierung) oder ein schlankes WordPress, siehe `03-empfehlung/`. Das Design ist auf beide übertragbar.
-
-## Gestaltungsentscheidungen
-
-| Entscheidung | Begründung |
+| Element | Umsetzung |
 |---|---|
-| **Tiefes Praxis-Türkis** `#0e5f5b` als Markenfarbe | Wiedererkennung der bisherigen Website, aber abgedunkelt: Weiß auf Türkis 7,5:1, Türkis auf Papier 7,0:1 (bisher kontrastschwach) |
-| Warmes Papierweiß `#faf7f2` statt Klinik-Weiß, ruhige Sandtöne | Seriös und freundlich, ohne Spa-Anmutung (keine Blumen, Kerzen, Kosmetikmotive) |
-| **Atkinson Hyperlegible Next** (Fließtext, 18 px) | Vom Braille Institute für maximale Lesbarkeit entwickelt, wichtig für ältere Patientinnen und Patienten. OFL-Lizenz, lokal eingebunden |
-| **Source Serif 4** (Überschriften) | Ruhige Serifenschrift, wirkt hochwertig und vertrauenswürdig. OFL-Lizenz, lokal |
-| Logo-Zeichen: **eigene Linienzeichnung einer Schlosskuppel** | Greift die Idee des bisherigen Logos auf (Schloss Charlottenburg), ist aber neu gezeichnet und keine Kopie. Im Projekt wird das **Original-Logo** als Vektor übernommen oder verfeinert, nach Absprache |
-| Inhaltsreihenfolge: Wer/Wo/Was → Termin & Telefon → „Heute“-Karten → Leistungen → Naturheilkunde → Ärztin → Termin → Sprechzeiten & Anfahrt | Die häufigsten Anliegen (Anrufen, Sprechzeiten, Notfall) sind ohne Scrollen bzw. über die feste Leiste erreichbar |
-| Hausärztliche Versorgung und Naturheilkunde **getrennt** | Klare, seriöse Positionierung. Naturheilkunde sachlich beschrieben, mit Kosten- und „kein Heilversprechen“-Hinweis (HWG-bewusst) |
-| Karte nur als **Link** (OpenStreetMap / Google Maps) | Keine Einbettung, also kein Datentransfer vor einem Klick und keine Einwilligung nötig |
-| Online-Buchung als **Knopf-Platzhalter** | Einbindung später per Link oder Widget, das erst nach Klick lädt |
+| **Logo** | Original-Wortmarke „PRAXIS ZUM SCHLOSS“ (400 × 101 px, unverändert) in Kopf und Fuß |
+| **Emblem** | Original-Emblem (2016 px) vektorisiert (`potrace`) → animierte Linienzeichnung im Einstieg, als Wasserzeichen in „Ihre Ärztin“, „Termin“ und in der Vorsorge-Karte |
+| **Farben** | exakt aus Logo und bisheriger Website: Marineblau `#2C3662`, Logo-Türkis `#00A09B`, Website-Türkis `#47CCC8`, zweites Türkis `#29AEAA`, Creme `#F6F3ED` |
+| **Porträt** | Original-Foto der Seite „Unsere Praxis“ (freigestellt), als AVIF/WebP in drei Größen (20–60 KB statt 1,6 MB) |
+| **Inhalte** | wie Entwurf 1: aus bisheriger Website, KBV-Register und Verzeichnissen (siehe unten) |
+
+## Was neu ist
+
+- **Typografie:** *Fraunces* (Display-Serife mit optischer Größe, elegante Kursive für Akzente wie *Ganzes*) + *Figtree* (klare, moderne Textschrift, passt zur geometrischen Wortmarke). Beide OFL, lokal eingebunden.
+- **Formensprache:** Bogenfenster, Glas-Karten, weiche Farbnebel in den Markenfarben statt Blumenfotos.
+- **Struktur:** Einstieg → Laufband der Leistungen → Haltung (Satz der Praxis, Wort für Wort beim Scrollen) → Leistungen (Reiter: *Hausärztliche Versorgung* / *Naturheilkunde & Akupunktur*) → Ihre Ärztin (Zeitleiste, die sich beim Scrollen füllt) → Sprechzeiten als **Wochenplan mit „Jetzt“-Linie** → Termin in drei Schritten → Anfahrt & Kontakt.
+- **„Intelligente“ Details:** Live-Status „Jetzt geöffnet · bis 18 Uhr“ / „Öffnet morgen um 9 Uhr“ (Zeitzone Berlin, minütlich aktualisiert) in Kopfzeile, Einstieg und Sprechzeiten; Kopfzeile wird beim Scrollen zu Glas und blendet sich beim Runterscrollen aus; Lichtkegel folgt der Maus auf den Karten; Hauptknöpfe leicht „magnetisch“; auf dem Smartphone erscheint nach dem Einstieg eine schwebende Leiste „Anrufen / Termin“.
+- **Zurückhaltung:** keine 3D-Effekte, keine Bibliotheken, keine Ladeanimation. Alle Bewegungen entfallen bei der Systemeinstellung „Bewegung reduzieren“; ohne JavaScript ist alles sofort sichtbar.
 
 ## Herkunft der Inhalte (nichts erfunden)
 
 | Inhalt | Quelle |
 |---|---|
-| Name, Fachärztin für Allgemeinmedizin, Adresse, Telefon, E-Mail | KBV-Arztsuche 116117 und bisherige Website (01.10.2026) |
-| Einleitungssatz („… dauerhaft angelegte Arzt-Patienten-Beziehung“) | Bisherige Startseite, leicht umgestellt |
-| Leistungen hausärztlich (Vorsorge, Impfungen, Diagnostik, Behandlung, Psychosomatik) | Bisherige Leistungsseiten und Startseite, gekürzt |
-| Naturheilkundliche Verfahren | Bisherige Leistungsliste. Die Kurzbeschreibungen sind **sachlich neu formuliert, ohne Wirkversprechen** |
-| Termin-Text, „Kinder oder schwer Kranke werden vorgezogen“, 116117/112 | Bisherige Kontaktseite |
-| Werdegang | Bisherige Seite „Unsere Praxis“, ohne private Angaben (z. B. Geburtsjahr) |
-| Sprechzeiten | Bisherige Website. **Verzeichnisse weichen ab → als „bitte bestätigen“ markiert** |
-| Sprachen (Englisch, Türkisch), Zugang „ebenerdig oder Aufzug“, Zusatzbezeichnungen | Verzeichnis arzt-auskunft.de → **gelb markiert, zu bestätigen** |
-| Fotos | **Keine.** Kein Porträt, keine Stockfotos (Lizenzfrage); stattdessen sichtbarer Platzhalter |
+| Name, Fachärztin für Allgemeinmedizin, Adresse, Telefon, E-Mail | KBV-Arztsuche 116117, bisherige Website |
+| „Den Menschen als Ganzes sehen“ | bisherige Startseite („Wir betrachten den Menschen als Ganzes …“) |
+| Haltungssatz und Nachsatz | bisherige Startseite, wörtlich |
+| Leistungen, Werdegang, Termin-Hinweise, 116 117/112 | bisherige Leistungsseiten, „Unsere Praxis“, Kontaktseite (gekürzt; Naturheilkunde **sachlich, ohne Wirkversprechen**) |
+| „seit 2019 eigene Praxis“ | „Unsere Praxis“ („Seit Oktober 2019 …“) |
+| Sprechzeiten | bisherige Website – **Verzeichnisse weichen ab, mit der Kundin bestätigen** |
+| Sprachen, „ebenerdig oder mit Aufzug“, Zusatzbezeichnungen | Verzeichnis arzt-auskunft.de – **zu bestätigen** |
 
-**Bewusst nicht verwendet:** der Titel „Dr.“. Website-Kopfzeile und Mail nutzen ihn, das KBV-Register, das Impressum und die Verzeichnisse nicht. Die korrekte Bezeichnung wird mit der Kundin geklärt (`FRAGEN.md`).
+Bewusst **ohne „Dr.“**: Titel nicht im KBV-Register und nicht im Impressum der Praxis – Bezeichnung im Gespräch klären (`FRAGEN.md` Nr. 13).
 
-## Offene Platzhalter (gelb markiert)
-
-1. Porträt der Ärztin (vorhandenes Foto, Freigabe und Nutzungsrechte klären)
-2. Online-Terminbuchung (Anbieter offen)
-3. Rezept-/Überweisungsbestellung (optionales Modul)
-4. Bus & Bahn: Haltestellen und Linien (von der Praxis zu ergänzen)
-5. Fax-Nummer (030 3255050 ist je nach Quelle Telefon oder Fax)
-6. Impressum- und Datenschutz-Links (Texte liefert die Praxis)
-7. Zu bestätigen: Sprechzeiten, Sprachen, barrierefreier Zugang, Zusatzbezeichnungen
+**Platzhalter:** Online-Terminbuchung (markiert mit „Entwurf“), Impressum/Datenschutz-Links.
 
 ## Qualität (gemessen)
 
-Messumgebung: lokaler Server (`python3 -m http.server`), Seite unter Unterpfad `/site/` wie auf GitHub Pages, Google Chrome headless, Lighthouse 13.5.0, je **3 Läufe**, Median (Spanne), **01.10.2026 08:31–08:33 MESZ**. Die mobile Messung nutzt die simulierte Drosselung von Lighthouse. Da lokal gemessen wurde, fehlt echte Netzlatenz; online sind leicht höhere Werte zu erwarten.
+Messung: lokaler Server, Unterpfad `/site/` (wie GitHub Pages), Chrome headless, Lighthouse 13.5.0, je 3 Läufe, Median, **01.10.2026 17:08–17:10 MESZ**. Lokal gemessen → online leicht höhere Ladezeiten zu erwarten.
 
 | | Performance | Barrierefreiheit | Best Practices | SEO | LCP | Gewicht | Anfragen |
 |---|---|---|---|---|---|---|---|
-| **Bisherige Startseite, mobil** | 62 | 86 | 92 | 92 | 11,6 s | 3.939 KB | 70 |
-| **Prototyp, mobil** | **99** (99–100) | **100** | **100** | 60* | **1,8 s** | **126 KB** | **6** |
-| Bisherige Startseite, Desktop | 90 | 91 | 96 | 92 | 0,8 s (CLS 0,18) | 5.055 KB | 79 |
-| **Prototyp, Desktop** | **100** | **100** | **100** | 60* | **0,4 s** (CLS 0) | **126 KB** | **6** |
+| Bisherige Website, mobil | 62 | 86 | 92 | 92 | 11,6 s | 3.939 KB | 70 |
+| Entwurf 1 (schlicht), mobil | 99 | 100 | 100 | 60* | 1,8 s | 126 KB | 6 |
+| **Entwurf 2, mobil** | **94** | **100** | **100** | 63* | **2,9 s** | **342 KB** | **11** |
+| **Entwurf 2, Desktop** | **98** | **100** | **100** | 63* | **0,6 s** | 332 KB | 12 |
 
-\* SEO 60 nur wegen des gewollten `noindex`. Eine Kopie ohne `noindex` erreicht **SEO 100** (Einzelmessung).
+\* SEO-Abzug nur durch das gewollte `noindex`.
+Einordnung LCP mobil 2,9 s: Lighthouse simuliert ein Mittelklasse-Smartphone mit langsamem 4G. Entwurf 2 lädt echte Fotos und zwei Schriftschnitte mehr als Entwurf 1. Das ist bewusst so gewählt, denn beides trägt die Wirkung. Performance bleibt im grünen Bereich.
 
 Weitere Prüfungen (Skripte in `../werkzeuge/`):
 
-- **axe-core** (WCAG 2.0/2.1/2.2 A+AA + Best Practices), 360 px und 1366 px: **0 Verstöße**. 7 Elemente „manuell prüfen“: Texte auf den gelben Platzhalter-Verläufen, rechnerisch ≥ 6:1.
-- **Viewports:** 320, 360, 390, 768, 1024, 1366, 1920 px: kein horizontales Scrollen, kein Element ragt heraus.
-- **Netzwerk:** 0 Anfragen an Drittanbieter, 0 Fehler (404), 0 Konsolenfehler, 0 Cookies.
-- **Tastatur:** 12 von 12 geprüften Tab-Stopps mit sichtbarem Fokusrahmen; Sprunglink „Zum Inhalt springen“.
+- **axe-core** (WCAG 2.0/2.1/2.2 A+AA + Best Practices), 360 px und 1366 px: **0 Verstöße**. 15 Fälle, die axe nicht automatisch berechnen kann, liegen auf Farbverlauf bzw. Wasserzeichen; rechnerisch ≥ 5:1.
+- **Kontraste der Farbkombinationen:**
+  - Marine auf Creme: 10,5:1
+  - Marine auf Türkis (Knöpfe, Wochenplan): 5,9:1
+  - Türkis auf Marine: 5,9:1
+  - Nebentext: ≥ 5,0:1
+  - blasse Wörter im Haltungssatz (vor dem Scrollen): ≥ 3,2:1 (große Schrift)
+- **Breiten:** 320, 360, 390, 768, 1024, 1366 und 1920 px. Kein horizontales Scrollen.
+- **Netzwerk:** 0 Drittanbieter, 0 Cookies, 0 Fehler, 0 Konsolenmeldungen.
+- **Tastatur:** 12 von 12 geprüften Tab-Stopps mit sichtbarem Fokus. Dazu kommen Sprunglink, ARIA-Reiter mit Pfeiltasten und ein Menü, das sich mit Esc schließt.
 
-Screenshots: [`screenshots/`](screenshots/) (360, 768, 1366, 1920 px, jeweils ganze Seite und erster Bildschirm, dazu Menü offen und Fokus auf dem Sprunglink). Lighthouse-Berichte: [`lighthouse-berichte/`](lighthouse-berichte/).
+Screenshots: [`screenshots/`](screenshots/) · Lighthouse-Berichte: [`lighthouse-berichte/`](lighthouse-berichte/)
 
 ## Lokal ansehen
-
-Im Terminal:
 
 ```bash
 cd "/Users/mohamed/github-projekte/Neuer Ordner/redesign"
 python3 -m http.server 8000
 ```
 
-Dann im Browser öffnen: <http://localhost:8000/site/> (beenden mit `Ctrl + C`).
+Dann im Browser öffnen: <http://localhost:8000/site/> (beenden mit `Ctrl + C`). Tipp: Das Fenster einmal neu laden, um die Einstiegsanimation zu sehen. Das Smartphone-Layout zeigen die Entwicklertools (⌥⌘I → Gerätesymbol).
 
-Der Unterpfad `/site/` simuliert absichtlich GitHub Pages. Direktes Öffnen von `site/index.html` per Doppelklick funktioniert ebenfalls weitgehend, Schriften können dabei aber je nach Browser blockiert werden.
+## Der Ärztin zeigen
 
-Prüfungen erneut ausführen (Server muss laufen):
+1. **Am einfachsten:** das Video `vorschau/rundgang-desktop.mp4` mitschicken (5,7 MB, passt in jede Mail) und dazu einen Link.
+2. **Link über GitHub Pages:** Damit kann sie die Seite selbst am Handy ausprobieren (Live-Status, Menü, Animationen). Die Anleitung steht unten.
+3. **Im Termin vor Ort oder per Bildschirmfreigabe:** lokal starten wie oben.
 
-```bash
-cd "/Users/mohamed/github-projekte/Neuer Ordner/werkzeuge"
-node pruefe-prototyp.mjs http://localhost:8000/site/ ../redesign/screenshots
-node axe-pruefung.mjs http://localhost:8000/site/
-```
+## Auf GitHub Pages veröffentlichen
 
-## Auf GitHub Pages veröffentlichen (erst nach Zustimmung der Kundin)
+> ⚠️ **Nur den Ordner `site/` veröffentlichen, niemals dieses Analyse-Repository.** Es enthält die vollständige Analyse, Rohdaten und Screenshots der bisherigen Website. Eine GitHub-Pages-Seite ist über den Link **für jeden erreichbar**, auch wenn sie per `noindex` nicht in Suchmaschinen erscheint. Sie enthält Porträt und Logo der Praxis. Deshalb den Link nur an die Ärztin geben und die Seite nach dem Gespräch wieder abschalten (Schritt 6).
 
-> ⚠️ **Nur den Ordner `site/` veröffentlichen, niemals dieses Analyse-Repository.** Es enthält die vollständige Analyse einer realen Praxis, Rohdaten und Screenshots ihrer Website. GitHub Pages ist bei kostenlosen Konten nur für **öffentliche** Repositories verfügbar. Private Repositories mit Pages brauchen GitHub Pro/Team, und auch dann ist die **veröffentlichte Seite öffentlich erreichbar** (nur der Code bleibt privat). Der Entwurf ist per `noindex` von Suchmaschinen ausgeschlossen, über den Link aber für jeden aufrufbar.
-
-**Schritt für Schritt (separates Repository, empfohlen):**
-
-1. Neues, leeres Verzeichnis anlegen und nur den Prototyp hineinkopieren:
+1. Prototyp in ein eigenes Verzeichnis kopieren:
    ```bash
    mkdir -p ~/praxis-zum-schloss-entwurf
    cp -R "/Users/mohamed/github-projekte/Neuer Ordner/redesign/site/." ~/praxis-zum-schloss-entwurf/
    cd ~/praxis-zum-schloss-entwurf
    ls -a   # muss index.html, assets/ und .nojekyll zeigen
    ```
-2. Git-Repository anlegen und committen:
+2. Git-Repository anlegen:
    ```bash
    git init -b main
    git add -A
    git commit -m "Entwurf Startseite Praxis zum Schloss"
    ```
-3. Auf GitHub ein Repository anlegen und hochladen. Entweder mit der GitHub-CLI:
+3. Hochladen, entweder mit der GitHub-CLI:
    ```bash
    gh repo create praxis-zum-schloss-entwurf --public --source=. --push
    ```
-   oder auf github.com → „New repository“ (leer, ohne README) anlegen und dann:
+   oder auf github.com ein leeres Repository anlegen und dann:
    ```bash
    git remote add origin https://github.com/<IHR-KONTO>/praxis-zum-schloss-entwurf.git
    git push -u origin main
    ```
-4. Auf github.com im Repository: **Settings → Pages → „Build and deployment“ → Source: „Deploy from a branch“ → Branch: `main`, Ordner: `/ (root)` → Save.**
-5. Nach 1–2 Minuten ist die Seite erreichbar unter `https://<IHR-KONTO>.github.io/praxis-zum-schloss-entwurf/`. Alle Pfade sind relativ, der Projekt-Unterpfad funktioniert ohne Anpassung. `.nojekyll` verhindert, dass GitHub die Dateien durch Jekyll schickt.
-6. Nach der Präsentation: Repository auf „Private“ stellen oder unter Settings → Pages die Veröffentlichung beenden, wenn die Seite nicht mehr gebraucht wird.
+   (GitHub Pages braucht bei kostenlosen Konten ein öffentliches Repository. Bei GitHub Pro/Team geht auch ein privates, die Seite selbst bleibt trotzdem über den Link erreichbar.)
+4. Auf github.com: **Settings → Pages → Build and deployment → Source: „Deploy from a branch“ → Branch `main`, Ordner `/ (root)` → Save.**
+5. Nach 1–2 Minuten ist die Seite erreichbar unter `https://<IHR-KONTO>.github.io/praxis-zum-schloss-entwurf/`. Alle Pfade sind relativ, der Unterpfad funktioniert ohne Anpassung.
+6. Nach dem Gespräch: unter **Settings → Pages** die Veröffentlichung beenden oder das Repository löschen bzw. auf privat stellen.
 
-**Alternative ohne öffentlichen Link:** Für ein Gespräch genügt oft eine Präsentation vom eigenen Rechner (`python3 -m http.server`) oder ein Versand der Screenshots.
-
-## Struktur
+## Aufbau und Pflege
 
 ```
 redesign/
-├── README.md                    diese Datei
-├── site/                        ← nur dieser Ordner wird veröffentlicht
-│   ├── index.html               Startseite (Entwurf, noindex)
+├── README.md
+├── site/                         ← nur dieser Ordner wird veröffentlicht
+│   ├── index.html                erzeugt aus quellen/index.vorlage.html (nicht direkt bearbeiten)
 │   ├── .nojekyll
 │   └── assets/
-│       ├── css/style.css        gesamtes Layout, kommentiert
-│       ├── js/main.js           Menü, „Sprechzeiten heute“, Platzhalter-Links
-│       ├── fonts/               Atkinson Hyperlegible Next, Source Serif 4 (+ OFL-Lizenzen)
-│       └── img/                 Logo-Zeichen und Favicon (SVG, eigene Zeichnung)
-├── screenshots/                 Prüf-Screenshots des Prototyps
-└── lighthouse-berichte/         Lighthouse-Berichte (Median-Lauf) und Zusammenfassung
+│       ├── css/style.css         gesamtes Layout und alle Animationen, kommentiert
+│       ├── js/main.js            Live-Status, Menü, Reiter, Scroll-Effekte (ohne Bibliothek)
+│       ├── fonts/                Fraunces, Figtree (+ OFL-Lizenzen)
+│       └── img/                  Logo, Porträt (AVIF/WebP), Emblem-Linien (SVG), Icons
+├── quellen/                      Originaldateien der Praxis + Bauschritte
+│   ├── index.vorlage.html        HTML-Quelle mit Platzhalter <!--EMBLEM-->
+│   ├── emblem-linien.svg         vektorisiertes Emblem (für die Zeichenanimation)
+│   ├── baue-index.py             setzt das Emblem ein → site/index.html
+│   └── *.png                     Original-Logo, Emblem, Porträt der bisherigen Website
+├── vorschau/rundgang-desktop.mp4
+├── screenshots/
+└── lighthouse-berichte/
 ```
+
+Änderungen am HTML in `quellen/index.vorlage.html` vornehmen, dann `python3 quellen/baue-index.py`. Bilder neu erzeugen: `node ../werkzeuge/bilder-aufbereiten.mjs`; Emblem neu vektorisieren: `node ../werkzeuge/emblem-vektorisieren.mjs` (jeweils aus `werkzeuge/` starten). Prüfungen: `node pruefe-prototyp.mjs http://localhost:8000/site/ ../redesign/screenshots` und `node axe-pruefung.mjs http://localhost:8000/site/`; Video: `node rundgang-video.mjs http://localhost:8000/site/ ../redesign/vorschau/rundgang-desktop.mp4`.
+
+Entwurf 1 (schlichte Variante ohne Fotos) liegt in der Git-Historie (Commit `2e56b99`).

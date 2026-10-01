@@ -6,8 +6,13 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
     "@fontsource-variable/source-serif-4": "^5.3.0",
+    "ffmpeg-static": "^5.3.0",
     "lighthouse": "^13.5.0",
-    "playwright": "^1.63.0"
+    "playwright": "^1.63.0",
+    "potrace": "^2.1.8",
+    "sharp": "^0.35.5"
   }
 }

@@ -43,6 +43,14 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Lighthouse geprüft, Probleme behoben (mobil 99, Desktop 100; axe 0 Verstöße)
 - [ ] Feedback von Mohamed eingeholt (Fragen gestellt, siehe NEEDS-HUMAN Punkt 5)
 
+## Phase E2 – Entwurf 2 (Wunsch: „elegant, beeindruckend“)
+- [x] Original-Logo, exakte Logofarben und Porträt übernommen
+- [x] Emblem vektorisiert, Zeichenanimation im Einstieg
+- [x] Neue Gestaltung (Bogenfenster, Fraunces/Figtree, Glas-Karten, Live-Status, Wochenplan)
+- [x] Prüfungen: Lighthouse mobil 94 / Desktop 98, Barrierefreiheit 100, axe 0 Verstöße, 320–1920 px
+- [x] Rundgang-Video (`redesign/vorschau/rundgang-desktop.mp4`)
+- [ ] Feedback von Mohamed (NEEDS-HUMAN Punkt 5)
+
 ## Abschluss
 - [x] `SUMMARY.md`
 - [x] `FRAGEN.md`

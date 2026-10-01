@@ -53,7 +53,7 @@ Die Anfrage ist echt: Absenderin ist die Hausärztin Nalan Bagci-Kaikis, „Prax
 
 **Behalten:** Domain, Hosting, Texte (überarbeitet), Porträt, Logo-Idee, Türkis, „eine Seite pro Leistung“. **Ersetzen:** Theme/Framework/Builder, Design, Stockfotos, Rechtstexte, reCAPTCHA. Plattform-Empfehlung: **statisch mit kleinem Pflegekontingent**. Die Praxis hat die bestehende WordPress-Installation nachweislich nicht gewartet. WordPress nur mit Wartungsvertrag.
 
-**Prototyp:** Neue Startseite in `redesign/` (statisch, GitHub-Pages-tauglich, `noindex`, als Entwurf markiert). Gemessen: mobil **Performance 99, Barrierefreiheit 100, LCP 1,8 s, 126 KB** (vorher 62 / 86 / 11,6 s / 3,9 MB); axe-core 0 Verstöße; keine Drittanbieter, keine Cookies.
+**Prototyp (Entwurf 2):** Neue Startseite in `redesign/` mit Original-Logo, Logofarben und Porträt. Die Bildmarke des Schlosses zeichnet sich animiert, die Ärztin erscheint im Bogenfenster, dazu ein Live-Status „Jetzt geöffnet“. Statisch, GitHub-Pages-tauglich, `noindex`, als Entwurf markiert. Gemessen mobil: **Performance 94, Barrierefreiheit 100, Best Practices 100, LCP 2,9 s, 342 KB** (vorher 62 / 86 / 92 / 11,6 s / 3,9 MB); Desktop 98/100/100. axe-core: 0 Verstöße. Keine Drittanbieter, keine Cookies. Rundgang-Video: `redesign/vorschau/rundgang-desktop.mp4`.
 
 ## Risiken für den Festpreis
 
@@ -61,10 +61,10 @@ Fehlende Zugänge oder ein blockierender Altdienstleister · Freigabeschleifen b
 
 ## Nächste Schritte
 
-1. **Mohamed:** Prototyp und Screenshots ansehen und die Fragen in `NEEDS-HUMAN.md` beantworten (Design-Feedback Nr. 5; Google-Profil und Index Nr. 2–3; Mail-Header Nr. 1).
+1. **Mohamed:** Entwurf 2 und Rundgang-Video ansehen, Fragen in `NEEDS-HUMAN.md` beantworten (Design-Feedback Nr. 5; Google-Profil und Index Nr. 2–3; Mail-Header Nr. 1).
 2. **Antwortmail** senden (`entwurf-antwort-mail.md`), 15-Minuten-Telefonat über die Praxisnummer aus dem Register.
 3. Im Gespräch die **A-Fragen aus `FRAGEN.md`** klären, vor allem Zugänge, Pflegemodell, Terminsystem, Budget und Zeit; **Sofortmaßnahme Demo-Seiten** freigeben lassen.
 4. Danach Festpreis-Angebot: Stufe 0, Relaunch, optionale Module, laufende Kosten getrennt.
-5. Prototyp erst **nach Zustimmung** der Kundin öffentlich zeigen (Anleitung `redesign/README.md`).
+5. Entwurf **nur der Ärztin** zeigen (Video und/oder befristeter Link, Anleitung `redesign/README.md`), nicht öffentlich verbreiten.
 
 *Hinweis: Rechtliche Einschätzungen sind Hinweise, keine Rechtsberatung.*

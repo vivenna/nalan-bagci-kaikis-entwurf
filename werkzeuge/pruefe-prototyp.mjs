@@ -44,13 +44,18 @@ for (const [name, vp] of VIEWPORTS) {
     const p2 = await c2.newPage();
     await p2.goto(url, { waitUntil: 'networkidle' });
     await p2.evaluate(() => document.fonts.ready);
+    // Einstiegsanimation abwarten und einmal durchscrollen, damit Scroll-Einblendungen auslösen
+    await p2.waitForTimeout(2600);
+    await p2.evaluate(async () => { const s = Math.floor(innerHeight * .5); for (let y = 0; y < document.documentElement.scrollHeight; y += s) { scrollTo(0, y); await new Promise(r => setTimeout(r, 120)); } scrollTo(0, 0); });
+    await p2.waitForTimeout(1400);
     await p2.screenshot({ path: path.join(out, `startseite-${name}-${vp.width}px.png`), fullPage: true });
     await c2.close();
   }
+  await page.waitForTimeout(2600); // Einstiegsanimation
   await page.screenshot({ path: path.join(out, `startseite-${name}-${vp.width}px-erster-bildschirm.png`) });
   if (name === 'mobil') {
     await page.click('.menue-knopf');
-    await page.waitForTimeout(200);
+    await page.waitForTimeout(700);
     await page.screenshot({ path: path.join(out, `startseite-mobil-360px-menue-offen.png`) });
   }
   if (name === 'laptop') {
