@@ -22,13 +22,13 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Bestehendes Terminsystem
 
 ## Phase C – Website-Analyse
-- [ ] Technik (CMS, Hosting, SSL, Header, Drittdienste)
-- [ ] Ladezeit / Lighthouse mobil + Desktop (mehrfach)
-- [ ] Screenshots mehrerer Viewports
-- [ ] Barrierefreiheits-Grobcheck
-- [ ] Inhalt und Struktur
-- [ ] Lokales SEO
-- [ ] Recht und Datenschutz (Impressum, DSGVO, Consent, HWG, BFSG)
+- [x] Technik (CMS, Hosting, SSL, Header, Drittdienste)
+- [x] Ladezeit / Lighthouse mobil + Desktop (mehrfach)
+- [x] Screenshots mehrerer Viewports
+- [x] Barrierefreiheits-Grobcheck
+- [x] Inhalt und Struktur
+- [x] Lokales SEO
+- [x] Recht und Datenschutz (Impressum, DSGVO, Consent, HWG, BFSG)
 
 ## Phase D – Empfehlung
 - [ ] Bewertung pro Bereich (behalten / überarbeiten / ersetzen)
