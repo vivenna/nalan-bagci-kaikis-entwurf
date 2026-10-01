@@ -30,11 +30,11 @@ Stand wird nach jedem Schritt aktualisiert. `[x]` = erledigt, `[ ]` = offen.
 - [x] Lokales SEO
 - [x] Recht und Datenschutz (Impressum, DSGVO, Consent, HWG, BFSG)
 
-## Phase D – Empfehlung
-- [ ] Bewertung pro Bereich (behalten / überarbeiten / ersetzen)
-- [ ] Gesamtempfehlung
-- [ ] Aufwandsindikation in Stunden-Spannen
-- [ ] Risiken für Festpreis, Annahmen
+## Phase D – Empfehlung ✅ Relaunch auf neuer Basis mit Inhaltsübernahme (+ Sofortmaßnahmen)
+- [x] Bewertung pro Bereich (behalten / überarbeiten / ersetzen)
+- [x] Gesamtempfehlung
+- [x] Aufwandsindikation in Stunden-Spannen
+- [x] Risiken für Festpreis, Annahmen
 
 ## Phase E – Redesign-Prototyp
 - [ ] Seite gewählt und begründet
