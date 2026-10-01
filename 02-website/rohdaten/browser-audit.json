@@ -1,0 +1,548 @@
+{
+ "erstellt": "2026-10-01T05:10:40.091Z",
+ "basis": "https://www.hausarztpraxis-zum-schloss.de",
+ "seiten": [
+  {
+   "seite": "startseite",
+   "pfad": "/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1389,
+   "anfragen": 70,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "PRAXIS ZUM SCHLOSS – Dr. Nalan BAGCI KAIKIS",
+   "h1": [],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 7929,
+   "fliesstextPx": 16,
+   "bilder": 22,
+   "bilderOhneAlt": 7,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 5802,
+   "screenshot": "startseite-mobil-360px.png"
+  },
+  {
+   "seite": "startseite",
+   "pfad": "/",
+   "ansicht": "tablet",
+   "breite": 768,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1416,
+   "anfragen": 72,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "PRAXIS ZUM SCHLOSS – Dr. Nalan BAGCI KAIKIS",
+   "h1": [],
+   "horizontalScroll": false,
+   "scrollWidth": 780,
+   "innerWidth": 780,
+   "seitenhoehe": 6188,
+   "fliesstextPx": 16,
+   "bilder": 22,
+   "bilderOhneAlt": 7,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 5883,
+   "screenshot": "startseite-tablet-768px.png"
+  },
+  {
+   "seite": "startseite",
+   "pfad": "/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1473,
+   "anfragen": 72,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "PRAXIS ZUM SCHLOSS – Dr. Nalan BAGCI KAIKIS",
+   "h1": [],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 5205,
+   "fliesstextPx": 16,
+   "bilder": 22,
+   "bilderOhneAlt": 7,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 5965,
+   "screenshot": "startseite-laptop-1366px.png"
+  },
+  {
+   "seite": "startseite",
+   "pfad": "/",
+   "ansicht": "desktop",
+   "breite": 1920,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 2676,
+   "anfragen": 76,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "PRAXIS ZUM SCHLOSS – Dr. Nalan BAGCI KAIKIS",
+   "h1": [],
+   "horizontalScroll": false,
+   "scrollWidth": 1920,
+   "innerWidth": 1920,
+   "seitenhoehe": 5295,
+   "fliesstextPx": 16,
+   "bilder": 22,
+   "bilderOhneAlt": 7,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 5965,
+   "screenshot": "startseite-desktop-1920px.png"
+  },
+  {
+   "seite": "unsere-praxis",
+   "pfad": "/unsere-praxis/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1504,
+   "anfragen": 53,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "UNSERE PRAXIS – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "UNSERE PRAXIS"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 4195,
+   "fliesstextPx": 18,
+   "bilder": 3,
+   "bilderOhneAlt": 1,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 2703,
+   "screenshot": "unsere-praxis-mobil-360px.png"
+  },
+  {
+   "seite": "unsere-praxis",
+   "pfad": "/unsere-praxis/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 2753,
+   "anfragen": 53,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "UNSERE PRAXIS – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "UNSERE PRAXIS"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 2424,
+   "fliesstextPx": 18,
+   "bilder": 3,
+   "bilderOhneAlt": 1,
+   "bilderUeberdimensioniert": [
+    {
+     "src": "massage_logo_01.png",
+     "natuerlich": 400,
+     "angezeigt": 200
+    },
+    {
+     "src": "hausarzt-nalan-bagci-kaikis.png",
+     "natuerlich": 1000,
+     "angezeigt": 270
+    }
+   ],
+   "consentBannerSichtbar": false,
+   "textLaenge": 2866,
+   "screenshot": "unsere-praxis-laptop-1366px.png"
+  },
+  {
+   "seite": "leistungsspektrum",
+   "pfad": "/services-category/leistungsspektrum/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 2076,
+   "anfragen": 63,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Leistungsspektrum – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Leistungsspektrum"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 7367,
+   "fliesstextPx": 16,
+   "bilder": 13,
+   "bilderOhneAlt": 3,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1385,
+   "screenshot": "leistungsspektrum-mobil-360px.png"
+  },
+  {
+   "seite": "leistungsspektrum",
+   "pfad": "/services-category/leistungsspektrum/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 3973,
+   "anfragen": 63,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Leistungsspektrum – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Leistungsspektrum"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 3677,
+   "fliesstextPx": 16,
+   "bilder": 13,
+   "bilderOhneAlt": 3,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1548,
+   "screenshot": "leistungsspektrum-laptop-1366px.png"
+  },
+  {
+   "seite": "leistung-vorsorge",
+   "pfad": "/services/vorsorgeleistungen/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1105,
+   "anfragen": 55,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "VORSORGELEİSTUNGEN – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "VORSORGELEİSTUNGEN"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 4830,
+   "fliesstextPx": 18,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1963,
+   "screenshot": "leistung-vorsorge-mobil-360px.png"
+  },
+  {
+   "seite": "leistung-vorsorge",
+   "pfad": "/services/vorsorgeleistungen/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1405,
+   "anfragen": 55,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "VORSORGELEİSTUNGEN – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "VORSORGELEİSTUNGEN"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 2566,
+   "fliesstextPx": 18,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 2126,
+   "screenshot": "leistung-vorsorge-laptop-1366px.png"
+  },
+  {
+   "seite": "leistung-schroepfen",
+   "pfad": "/services/schroepfen-hacamat-hijama/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1165,
+   "anfragen": 57,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "SCHRÖPFEN (HACAMAT, HIJAMA) – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "SCHRÖPFEN (HACAMAT, HIJAMA)"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 4212,
+   "fliesstextPx": 18,
+   "bilder": 6,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [
+    {
+     "src": "massage_logo_01.png",
+     "natuerlich": 400,
+     "angezeigt": 200
+    },
+    {
+     "src": "SCHROePFEN-HACAMAT-HIJAMA.jpg",
+     "natuerlich": 1366,
+     "angezeigt": 770
+    }
+   ],
+   "consentBannerSichtbar": false,
+   "textLaenge": 4005,
+   "screenshot": "leistung-schroepfen-laptop-1366px.png"
+  },
+  {
+   "seite": "kontakt",
+   "pfad": "/kontakt/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1423,
+   "anfragen": 51,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "KONTAKT – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "KONTAKT"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 3401,
+   "fliesstextPx": 16,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1865,
+   "screenshot": "kontakt-mobil-360px.png"
+  },
+  {
+   "seite": "kontakt",
+   "pfad": "/kontakt/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1662,
+   "anfragen": 52,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "KONTAKT – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "KONTAKT"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 1989,
+   "fliesstextPx": 16,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 2028,
+   "screenshot": "kontakt-laptop-1366px.png"
+  },
+  {
+   "seite": "termin",
+   "pfad": "/termin/",
+   "ansicht": "mobil",
+   "breite": 360,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 2307,
+   "anfragen": 51,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Termin – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Termin"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 360,
+   "innerWidth": 360,
+   "seitenhoehe": 2323,
+   "fliesstextPx": 16,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 666,
+   "screenshot": "termin-mobil-360px.png"
+  },
+  {
+   "seite": "termin",
+   "pfad": "/termin/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1330,
+   "anfragen": 52,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Termin – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Termin"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 1940,
+   "fliesstextPx": 16,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 829,
+   "screenshot": "termin-laptop-1366px.png"
+  },
+  {
+   "seite": "impressum",
+   "pfad": "/impressum/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1858,
+   "anfragen": 51,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Impressum – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Impressum"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 2059,
+   "fliesstextPx": 16,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1277,
+   "screenshot": "impressum-laptop-1366px.png"
+  },
+  {
+   "seite": "demo-homepage-plastic",
+   "pfad": "/homepage-plastic/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1649,
+   "anfragen": 64,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [
+    {
+     "name": "PHPSESSID",
+     "domain": "www.hausarztpraxis-zum-schloss.de",
+     "ablauf": "Sitzung"
+    }
+   ],
+   "konsolenfehler": [
+    "Failed to load resource: the server responded with a status of 404 ()"
+   ],
+   "titel": "Homepage Plastic – PRAXIS ZUM SCHLOSS",
+   "h1": [],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 6675,
+   "fliesstextPx": 16,
+   "bilder": 20,
+   "bilderOhneAlt": 2,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 4282,
+   "screenshot": "demo-homepage-plastic-laptop-1366px.png"
+  },
+  {
+   "seite": "demo-team",
+   "pfad": "/team/",
+   "ansicht": "laptop",
+   "breite": 1366,
+   "http": 200,
+   "ladezeitBisNetzwerkruheMs": 1099,
+   "anfragen": 52,
+   "fremdHosts": [
+    "www.google.com"
+   ],
+   "cookiesVorEinwilligung": [],
+   "konsolenfehler": [],
+   "titel": "Team – PRAXIS ZUM SCHLOSS",
+   "h1": [
+    "Team"
+   ],
+   "horizontalScroll": false,
+   "scrollWidth": 1366,
+   "innerWidth": 1366,
+   "seitenhoehe": 2307,
+   "fliesstextPx": 14,
+   "bilder": 2,
+   "bilderOhneAlt": 0,
+   "bilderUeberdimensioniert": [],
+   "consentBannerSichtbar": false,
+   "textLaenge": 1410,
+   "screenshot": "demo-team-laptop-1366px.png"
+  }
+ ]
+}

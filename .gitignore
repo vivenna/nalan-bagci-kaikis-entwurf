@@ -21,3 +21,7 @@ tmp/
 # Vollständige Roh-HTMLs fremder Verzeichnisse (enthalten u. a. Patientenbewertungen Dritter).
 # Als Beleg genügen die Textauszüge in 00-plausibilitaet/belege/.
 02-website/rohdaten/verzeichnisse/
+
+# Vollständige Lighthouse-Läufe (je ~1 MB). Ausgewertet in 02-website/technik.md;
+# die beiden Median-Berichte liegen als HTML in 02-website/lighthouse-berichte/.
+02-website/rohdaten/lighthouse/
